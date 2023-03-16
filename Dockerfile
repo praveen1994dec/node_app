@@ -4,7 +4,7 @@ WORKDIR app
 
 COPY . .
 
-RUN npm install
+RUN npm install express
 
 EXPOSE 3000
 
